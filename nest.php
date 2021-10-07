@@ -21,7 +21,7 @@
     $getal_3 = $_POST['getal_3'];
     
 
-    $bmi = $getal_3 / ($getal_2 * $getal_2) ; 
+    $bmi = $getal_3 / $getal_2^2; 
 
   echo $bmi ;
 echo "<br>" ;
